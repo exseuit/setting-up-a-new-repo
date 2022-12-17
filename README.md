@@ -24,9 +24,17 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 
 
 
+
 ## Authorise GitHub CLI
 
         gh auth login
         gh repo create my-newrepo --public --source=. --remote=upstream --push
 
 gh repo create:  https://cli.github.com/manual/gh_repo_create
+
+
+### What is GitHub CLI for?
+
+The GitHub command line (CLI) tool can be used to carry out tasks relating to pull requests, issues and other GitHub tasks to your terminal.  Meaning if you are working with code within your terminal and need to carry out a task with GitHub you don't have to leave that terminal session.
+
+Each command starts with gh. 
