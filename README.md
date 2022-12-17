@@ -20,3 +20,13 @@
 …or import code from another repository
 
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
+
+
+## Authorise GitHub CLI
+
+        gh auth login
+        gh repo create my-newrepo --public --source=. --remote=upstream --push
+
+gh repo create:  https://cli.github.com/manual/gh_repo_create
